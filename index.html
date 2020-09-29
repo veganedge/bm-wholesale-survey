@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bird Mafia Wholesale Survey</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Bird Mafia wholesale customer survey</h1>
+      <p id="description">We want your feedback to help us gear our wholesale products to your needs</p>
+      <div id="formContainer">
+        <form id="survey-form">
+          <!--add action="url" and method="post"-->
+          <label for="name" id="name-label">Full Name:</label>
+          <input id="name" type="text" name="name" placeholder="Jane Doe" required autofocus><br><br>
+          <label for="email" id="email-label">Email:</label>
+          <input id="email" type="email" name="email" placeholder="yourname@domain.com" required><br><br>
+          <label for="store" id="store-label">Store Name:</label>
+          <input id="store" type="text" name="store" placeholder="Your store name" min=1 max=100><br><br>
+          <label for="categories" id="categories-label">Which Bird Mafia product category sells best to your customers:</label>
+          <input list="dropdown" required>
+          <datalist class="categories" id="dropdown">
+            <option value="Towels">
+            <option value="Plushes">
+            <option value="Accessories">
+            <option value="Papergoods">
+            <option value="Stickers">
+          </datalist><br><br>
+          <label for="worst" id="worst-label">Which Bird Mafia product category sells worst to your customers:</label><br>
+          <input type=radio name="worst" value="Towels">
+          <label for="Towels">Towels</label>
+          <input type=radio name="worst" value="Plushes">
+          <label for="Plushes">Plushes</label>
+          <input type=radio name="worst" value="Accessories">
+          <label for="Accessories">Accessories</label>
+          <input type=radio name="worst" value="Papergoods">
+          <label for="Papergoods">Papergoods</label>
+          <input type=radio name="worst" value="Stickers">
+          <label for="Stickers">Stickers</label><br><br>
+          <label for="wanted" id="wanted-label">What product category do you wish Bird Mafia produced:</label><br>
+          <input type="checkbox" name="Apparel" value="Apparel">
+          <label for="Apparel">Apparel</label>
+          <input type="checkbox" name="Jewelry" value="Jewelry">
+          <label for="Jewelry">Jewelry</label>
+          <input type="checkbox" name="Apparel" value="Apparel">
+          <label for="Stationery">Stationery</label>
+          <input type="checkbox" name="Stationery" value="Stationery">
+          <label for="Drinkware">Drinkware</label>
+          <input type="checkbox" name="Pillowcases" value="Pillowcases">
+          <label for="Pillowcases">Pillowcases</label>
+          <input type="checkbox" name="Other" value="Other">
+          <label for="Other">Other</label><br><br>
+          <label for="comments" id="comments-label">Any additional comments/questions:</label>
+          <textarea name="comments" rows="5" cols="88"></textarea><br><br>
+          <input type="submit" id="submit" value="Submit Form">
+          <input type="reset" id="reset" value="Reset Form">
+        </form>
+      </div>
+    </main>
+    <footer>
+    
+    </footer>
+  </body>
+
+</html>
