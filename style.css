@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+#title {
+  text-decoration: underline overline;
+  color: #a7b148;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+#description {
+  font-size: 1.7em;
+}
+
+#formContainer {
+  background-color: rgba(166, 168, 153, 0.5);
+  border: solid 1px black;
+  padding: 10px;
+  width: 55%;
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#survey-form {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+#number {
+  width: 200px;
+}
+
+input {
+  padding: 5px;
+  margin: 6px;
+}
+
