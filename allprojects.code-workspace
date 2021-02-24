@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "web-dev-tasks",
+			"path": "../web-dev-tasks"
+		},
+		{
+			"name": "web-dev-projects",
+			"path": "../web-dev-projects"
+		},
+		{
+			"path": "../book-presale"
+		}
+	],
+	"settings": {}
+}
